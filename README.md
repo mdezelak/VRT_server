@@ -35,11 +35,10 @@ npm install cors
 
 4. In index.js file set databse connection parameters
 
-`var con = mysql.createConnection({
+```
+var con = mysql.createConnection({
   host: "",
   user: "",
   password: "",
   database: ''
-});`
-
-
+});```
