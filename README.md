@@ -2,6 +2,7 @@
 
 # Description
 
+VRT server is part of VRT application. It's based on node.js structure and contains APIs needed for VRT_app. It works as interface between app, database and data  extraction script.
 
 
 # Requirements
@@ -9,8 +10,9 @@
 For server to work, needs working `data_extraction.py` script.
 Script is avalible here: https://github.com/mdezelak/VRT_data_extractor
 
-Server also requires MySql databse server.
-MySQL is avaliable here: https://www.mysql.com/
+Server also requires MySql database server.
+MySQL is available here: https://www.mysql.com/
+After installation import database structure from DB file.
 
 # Usage
 
@@ -33,7 +35,7 @@ npm install
 npm install cors
 ```
 
-4. In index.js file set databse connection parameters
+4. In index.js file set database connection parameters
 
 ```
 var con = mysql.createConnection({
