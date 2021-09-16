@@ -12,7 +12,7 @@ Script is avalible here: https://github.com/mdezelak/VRT_data_extractor
 
 Server also requires MySql database server.
 MySQL is available here: https://www.mysql.com/
-After installation import database structure from DB file.
+After installation import database structure from DB folder.
 
 # Usage
 
